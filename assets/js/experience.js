@@ -4,25 +4,25 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Chemical Inventory Team Lead ",
+    cardImage: "assets/images/personal/gmo1.jpg",
+    place: "UCSF ",
+    time: "(July 2018 - present)",
+    desp: "<li>Worked with deploying new Chemical Inventory System</li> <li>Provided consultations to labs regarding Chemical Hygiene and other safety issues regarding Chemical use and stoarge.</li> <li>Established procedures to conduct weekly database cleaning to ensure QA for our product.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Junior Specialist/Research Assistant",
+    cardImage: "assets/images/personal/gmo3.JPG",
+    place: "UC Merced",
+    time: "(Nov 2017 - Jul 2018)",
+    desp: "<li>Developed my own Python Molecular Dyanics Simulation.</li><li>Refactored Fortran code into modern Python code to compare language speeds.</li><li> Compared various initial condition to determine overall ML imporvement</li>",
   },
   {
     title: "Research Intern",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    place: "",
+    time: "(Dec 2015 - Jan 2016)",
+    desp:"<li>Conducted some developmental biology research to familiarize myself with laboratory techniques used in Biology.</li><li>Conducted gene expression studies.</li><li> Extracted embryos from amphibian models(Xeanopus Laevis and Xeanopus Tropicalis)</li>",
   },
 ];
 
@@ -61,6 +61,12 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
+  {
+    title: "UCSF COVID Vaccine Clinic",
+    cardImage: "assets/images/personal/gmo1.jpg",
+    description:
+      "<b>Role:Safety Officer</b> <hr /> Responsible for surveying and resolving any safety issues possibly presented within the Clinic. "
+  },
   {
     title: "GirlScript Summer Of Code 2020",
     cardImage: "assets/images/experience-page/1.jpg",
@@ -125,16 +131,10 @@ document.addEventListener("DOMContentLoaded", showCards);
 const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
   {
-    title: "HakinCode",
-    image: "assets/images/experience-page/hakin.png",
-    time: "06/2020 - 08/2020",
-    desp: "<li>It is an open source community where students and mentors can apply.</li><hr /><li>Ample amount of technologies and projects are there and we are given opportunity to work on them according to our interest and knowledge.</li>",
-  },
-  {
-    title: "Google Summer of Code",
-    image: "assets/images/experience-page/gsoc.png",
-    time: "03/2020 - 08/2020",
-    desp: "<li>Google Summer of Code is a global program focused on introducing students to open source software development.</li><hr /><li>It is a great platform to explore new areas, maybe discover a new career path!</li>",
+    title: "ACS SEED Mentor",
+    image: "",
+    time: "05/2018 - 07/2018 ",
+    desp: "<li> Mentored underprivleedged students interested in learning about Chemistry Research</li><hr \><li> Provided the technical knowledge to complete their ML research projects</li><hr /><li>Built simple ML Models for students to play with and make prototypes with</li> ",
   },
 ];
 
