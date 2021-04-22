@@ -438,9 +438,9 @@ body{
     color: var(--p-up);
 }
 
- /*social icons footer*/
+ /*social icons */
 
- .social-icons-footer {
+ .social-icons- {
     font-size: 20px;
     align-items: center;
     justify-content: center;
@@ -449,12 +449,12 @@ body{
     display: block;
   }
   
-  .social-icon-footer {
+  .social-icon- {
     display: flex;
     position: relative;
     overflow: hidden;
-    width: var(--link-size-footer-s);
-    height: var(--link-size-footer-s);
+    width: var(--link-size--s);
+    height: var(--link-size--s);
     margin: 3px;
     background-color: #26a69a;
     border-radius: 50%;
@@ -462,13 +462,13 @@ body{
     float: left;
   }
   
-  .social-icon-footer i {
+  .social-icon- i {
     margin: auto;
     font-size: 15px;
     color: #fff;
   }
   
-  .social-icon-footer:hover i {
+  .social-icon-:hover i {
     color: #000000;
   }
   
@@ -476,23 +476,23 @@ body{
   
   @media(min-width: 60rem)
   {
-    .social-icons-footer{
+    .social-icons-{
       width: 280px;
     }
   
-    .social-icon-footer{
-      width: var(--link-size-footer-b);
-      height: var(--link-size-footer-b);
+    .social-icon-{
+      width: var(--link-size--b);
+      height: var(--link-size--b);
     }
   
-    .social-icon-footer i{
+    .social-icon- i{
       font-size: 20px;
     }
   }
   
   /*Animations*/
   
-  .social-icon-footer:hover {
+  .social-icon-:hover {
     transform: translateY(-4px);
     box-shadow: 0px 4px 12px rgb(100, 248, 233);
   }

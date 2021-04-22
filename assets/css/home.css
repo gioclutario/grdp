@@ -110,8 +110,8 @@ body{
 :root {
   --link-size: 64px;
   --trans-props: all 0.2s ease;
-  --link-size-footer-b: 40px;
-  --link-size-footer-s: 30px;
+  --link-size--b: 40px;
+  --link-size--s: 30px;
 }
 
 .social-icons {

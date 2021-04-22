@@ -32,71 +32,69 @@ if(mybutton) {
 //Footer and Navbar
 
 let header = $(`
-<nav class="fixed-top black">
-<div class="nav-wrapper">
-    <a href="#!" class="brand-logo"><img src="assets/images/John-Doe1.png"></a>
-    <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
-            class="material-icons">menu</i></a>
-    <ul class="right hide-on-med-and-down">
-        <li><a class="white-text" href="index.html">Home</a></li>
-        <li><a class="white-text" href="experience.html">Experience</a></li>
-        <li><a class="white-text" href="projects.html">Projects</a></li>
-        <li><a class="white-text" href="research.html">Research</a></li>
-        <li><a class="white-text" href="education.html">Education</a></li>
-        <li><a class="white-text" href="skill.html">Skills</a></li>
-        <li><a class="white-text" href="index.html">Blog</a></li>
-        <!--TOGGLE FOR LIGHT/DARK MODE-->
-        <li>
-          <label for="switch-1" class="theme-switch">
-            <input class="toggle-checkbox" type="checkbox" id="switch-1" name="theme" />
+  <nav class="fixed-top black">
+  <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><img src="assets/images/John-Doe1.png"></a>
+      <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
+              class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+          <li><a class="white-text" href="index.html">Home</a></li>
+          <li><a class="white-text" href="experience.html">Experience</a></li>
+          <li><a class="white-text" href="projects.html">Projects</a></li>
+          <li><a class="white-text" href="research.html">Research</a></li>
+          <li><a class="white-text" href="skill.html">Skills</a></li>
+          <li><a class="white-text" href="index.html">Blog</a></li>
+          <!--TOGGLE FOR LIGHT/DARK MODE-->
+          <li>
+            <label for="switch-1" class="theme-switch">
+              <input class="toggle-checkbox" type="checkbox" id="switch-1" name="theme" />
+              <div class='toggle-slot'>
+                <div class='sun-icon-wrapper'>
+                  <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"> </div>
+                </div>
+                <div class='toggle-button-1 toggle-button'></div>
+                <div class='moon-icon-wrapper'>
+                  <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"> </div>
+                </div>
+              </div>
+            </label>
+          </li>
+      </ul>
+  </div>
+  </nav>
+
+  <!--Side Nav Bar -->
+  <ul class="sidenav" id="mobile-demo">
+  <li><a class="sidenav-close" href="#!"><i class="material-icons">close</i></a></li>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="experience.html">Experience</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="research.html">Research</a></li>
+  <li><a href="skill.html">Skills</a></li>
+  <li><a href="index.html">Blog</a></li>
+
+  <!--TOGGLE FOR LIGHT/DARK MODE-->
+          <li>
+          <label for="switch-2" class="theme-switch">
+          <input class="toggle-checkbox" type="checkbox" id="switch-2" name="theme" />
             <div class='toggle-slot'>
-              <div class='sun-icon-wrapper'>
-                <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"> </div>
-              </div>
-              <div class='toggle-button-1 toggle-button'></div>
-              <div class='moon-icon-wrapper'>
-                <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"> </div>
-              </div>
+            <div class='sun-icon-wrapper'>
+            <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"> </div>
             </div>
-          </label>
-        </li>
-    </ul>
-</div>
-</nav>
-
-<!--Side Nav Bar -->
-<ul class="sidenav" id="mobile-demo">
-<li><a class="sidenav-close" href="#!"><i class="material-icons">close</i></a></li>
-<li><a href="index.html">Home</a></li>
-<li><a href="experience.html">Experience</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="research.html">Research</a></li>
-<li><a href="education.html">Education</a></li>
-<li><a href="skill.html">Skills</a></li>
-<li><a href="index.html">Blog</a></li>
-
-<!--TOGGLE FOR LIGHT/DARK MODE-->
-        <li>
-        <label for="switch-2" class="theme-switch">
-        <input class="toggle-checkbox" type="checkbox" id="switch-2" name="theme" />
-          <div class='toggle-slot'>
-          <div class='sun-icon-wrapper'>
-          <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"> </div>
-          </div>
-          <div class='toggle-button-2 toggle-button'></div>
-          <div class='moon-icon-wrapper'>
-          <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"> </div>
-          </div>
-          </div>
-          </label>
-        </li>
-</ul>`);
+            <div class='toggle-button-2 toggle-button'></div>
+            <div class='moon-icon-wrapper'>
+            <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"> </div>
+            </div>
+            </div>
+            </label>
+          </li>
+  </ul>`);
 
 let footer = $(`
-<footer class="webintern-footer">
+<footer class="footer">
     <div class="footer-left">
       <div class="footer-text">
-        <p>"Develop a passion for learning. If you do, you will never cease to grow."</p>
+        <p>"I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived."</p>
       </div>
       <div class="footer-icons">
       <a href="#" class="linkedin sub-footer-icon">

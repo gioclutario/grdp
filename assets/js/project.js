@@ -15,7 +15,7 @@ const projects = [
   {
     title: "LJ MD Sim",
     cardImage: "",
-    description: "",
+    description: "A small little mini MD Simulation as part of my ML Research in the Liang Shi Group",
     tagimg: "",
     Previewlink: "",
     Githublink: "https://github.com/gioclutario/LJ_MD",

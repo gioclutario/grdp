@@ -3,7 +3,7 @@
 window.onload = function () {
   const favicon = document.getElementById("favicon");
   let pageTitle = document.title;
-  let attentionMessage = "Come back";
+  let attentionMessage = "(Test) Come Back";
   let blinkEvent = null;
 
   document.addEventListener("visibilitychange", function (e) {
